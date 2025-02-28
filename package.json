@@ -1,6 +1,6 @@
 {
   "name": "yt-audio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download and merge audio clips from YouTube videos",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "commander": "^9.4.1",
     "fluent-ffmpeg": "^2.1.2",
-    "ytdl-core": "^4.11.2"
+    "ytdl-core": "npm:@distube/ytdl-core"
   },
   "engines": {
     "node": ">=14.0.0"
