@@ -1,0 +1,37 @@
+{
+  "name": "yt-audio",
+  "version": "1.0.0",
+  "description": "Download and merge audio clips from YouTube videos",
+  "main": "index.js",
+  "bin": {
+    "yt-audio": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "audio",
+    "download",
+    "merge",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyubTouba/yt-audio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AyubTouba/yt-audio/issues"
+  },
+  "homepage": "hhttps://github.com/AyubTouba/yt-audio#readme"
+}

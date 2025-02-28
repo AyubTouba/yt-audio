@@ -1,0 +1,7 @@
+.git
+.github
+node_modules
+test
+temp_audio_files
+*.mp3
+*.mp4
